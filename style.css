@@ -40,7 +40,8 @@ body{
 
 .logo{
     width:75px;
-    height:auto;
+    height:75px;
+    object-fit:contain;
 }
 
 .logo-box h2{
@@ -279,8 +280,10 @@ nav a{
     font-size:28px;
 }
 
-.logo{
-    width:40px;
+..logo{
+    width:60px;
+    height:60px;
+    object-fit:contain;
 }
 }
 .contact{
@@ -472,4 +475,4 @@ footer{
 .show{
     opacity:1;
     transform:translateY(0);
-}
+ }
